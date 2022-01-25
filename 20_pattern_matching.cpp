@@ -1,6 +1,37 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+bool ismatching(string s1, string s2)
+{
+    int i = 0, j = 0;
+    bool cond = 0;
+
+    while (i < s1.size())
+    {
+        int found = 0;
+        while (j < s2.size())
+        {
+            if (s1[i] == s2[j])
+            {
+                i++;
+                j++;
+                found = 1;
+                break;
+            }
+            else
+            {
+                j++;
+            }
+        }
+
+        if (!found)
+        {
+            return false;
+        }
+    }
+
+    return true;
+}
 int main()
 {
     string a, b;
@@ -30,4 +61,5 @@ int main()
     }
 
     cout << dp[m][n] << endl;
+    cout << ismatching(a, b) << endl;
 }
