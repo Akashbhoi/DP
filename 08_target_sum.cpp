@@ -40,4 +40,5 @@ int main()
     }
 
     cout << dp[n][s];
+    return 0;
 }
