@@ -30,7 +30,7 @@ int main()
         }
     }
 
-    // vector<int> v;
+    
     for (int i = n; i >= 0; i--)
     {
         for (int j = 0; j < c + 1; j++)
