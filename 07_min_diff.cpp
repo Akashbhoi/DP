@@ -42,4 +42,5 @@ int main()
     }
 
     cout << sum - 2 * s << endl;
+    return 0;
 }
