@@ -1,1 +1,2 @@
 # dp
+[template](./_.cpp)
