@@ -28,4 +28,5 @@ int main()
 
     for (int i = 0; i <= sum; i++)
         cout << "sum = " << i << " " << dp[i] << endl;
+    return 0;
 }
