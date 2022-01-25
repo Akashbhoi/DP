@@ -47,4 +47,5 @@ int main()
     }
 
     cout << dp[L] << endl;
+    return 0;
 }
