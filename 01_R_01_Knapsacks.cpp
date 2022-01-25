@@ -11,7 +11,6 @@ int maxProfit(int n, int W[], int V[], int cap)
     else
         return maxProfit(n - 1, W, V, cap);
 }
-
 int main()
 {
     int n;
