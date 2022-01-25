@@ -2,6 +2,7 @@
 using namespace std;
 
 int **dp;
+
 int profit(int n, int W[], int V[], int cap)
 {
     if (n == 0 || cap == 0)
