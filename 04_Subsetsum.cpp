@@ -31,4 +31,5 @@ int main()
     }
 
     cout << dp[n][sum] << endl;
+    return 0;
 }
